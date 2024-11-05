@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.708);
+}
+#nav{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    font-family: 'inter';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#nav h4{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+#nav i{
+    size: 18px;
+}
+#nav2{
+    height: 40px;
+    width: 100%;
+    font-family: 'inter';
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#nav2 p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+#nav2 a{
+    color: royalblue;
+    text-decoration: none;
+}
+#center1{
+    height: 75%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 35px;
+    font-family: 'inter';
+}
+#center1 h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+#center1 h3{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 350;
+}
+#link1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+#learn1{
+    background-color: royalblue;
+    color: white;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy1{
+    background-color: transparent;
+    color: royalblue;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy1:hover{
+    color: white;
+    background-color: royalblue;
+}
+#center2{
+    height: 75%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    font-family: 'inter';
+}
+#center2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 650;
+    color: rgb(34, 34, 34);
+}
+#center2 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+#link2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+#learn2{
+    background-color: royalblue;
+    color: white;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy2{
+    background-color: transparent;
+    color: royalblue;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy2:hover{
+    color: white;
+    background-color: royalblue;
+}
+#center3{
+    height: 75%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+    font-family: 'inter';
+}
+#center3 h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+#center3 h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 350;
+}
+#link3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+#learn3{
+    background-color: royalblue;
+    color: white;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy3{
+    background-color: transparent;
+    color: royalblue;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+#buy3:hover{
+    color: white;
+    background-color: royalblue;
+}
